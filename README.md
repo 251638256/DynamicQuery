@@ -1,11 +1,11 @@
 # DynamicQuery
 ASP.NET MVC 动态查询框架
 
-#更新
+# 更新
 1. 扩展QueryOperator.IN操作
 2. 修复Get提交表单无法使用exinclude的BUG
 
-#使用
+# 使用
 
 注册模型绑定
 ModelBinders.Binders.Add(typeof(QueryDescriptor), new QueryDescriptorBinder());
